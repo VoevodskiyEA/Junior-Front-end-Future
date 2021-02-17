@@ -1,0 +1,14 @@
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    &__input{
+        width: 600px;
+    }
+    &__button{
+        margin-left: 20px;
+    }
+    &__new{
+
+    }
+}

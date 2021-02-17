@@ -1,0 +1,25 @@
+.table-task__wrapper thead th { position: sticky; top: 0; }
+
+th     { background:#eee; }
+.error{
+    color:red;
+    font-size: 40px;
+}
+
+.table-task{
+    &__upper{
+        display: flex;
+    }
+    &__wrapper{
+        margin: 10px;
+        border: 1px solid #eee;
+        overflow-y: auto; 
+        max-height: 700px;
+        &__table{
+            border-collapse: collapse; width: 100%;
+            &__thead{
+                color:black;
+            }
+        }
+    }
+}

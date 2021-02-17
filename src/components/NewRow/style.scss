@@ -1,0 +1,26 @@
+.new-row {
+  display: flex;
+  justify-content: center;
+  &__form {
+    &__group {
+      display: flex;
+
+      &__item {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+    }
+    &__submit {
+      display: flex;
+      justify-content: center;
+      &__button{
+
+      }
+    }
+    &__error{
+        margin-left: 20px;
+        color:red;
+    }
+  }
+}

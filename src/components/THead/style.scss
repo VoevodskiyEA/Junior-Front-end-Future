@@ -1,0 +1,33 @@
+.thead{
+    font-size: 28px;
+    &__id{
+        font-size: 20px;
+        width: 60px;
+        height: 50px;
+    }
+    &__firstname{
+        font-size: 20px;
+        width: 120px;
+    }
+    &__lastname{
+        font-size: 20px;
+        width: 120px;
+    }
+    &__email{
+        font-size: 20px;
+        width: 210px;
+    }
+    &__phone{
+        font-size: 20px;
+        width: 110px;
+    }
+    &__address{
+        font-size: 20px;
+        width: 140px;
+    }
+    &__description{
+        font-size: 20px;
+        width: auto;
+    }
+
+}
